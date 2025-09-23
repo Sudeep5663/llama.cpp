@@ -10,6 +10,11 @@ If not already installed :
 
 **Note** : Requires Python 3.10+ and macOS with Apple Silicon ( M1/M2/M3).
 
+Reference :
+
+[mlx - 1](https://github.com/ml-explore/mlx/blob/main/README.md),
+[mlx - 2](https://ml-explore.github.io/mlx/build/html/index.html#)
+
 ## 2. Convert Hugging Face model to MLX format :
 
 You can start with a Hugging Face transformer model and convert it to MLX for training. Quantization helps save VRAM during fine-tuning.
@@ -124,6 +129,10 @@ Fuse the adapters into this base model :
 	--model ./hf_base_model \
 	--adapter-path ./adapters/ \
 	--save-path ./hf_fused_model
+
+Reference :
+
+[mlx_lora](https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md#Data)
 
 ## 7. Convert fused Hugging Face model to GGUF :
 
