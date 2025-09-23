@@ -125,6 +125,16 @@ FastAPI Server ( server.py )
 
 -- [server](https://github.com/Sudeep5663/llama.cpp/blob/main/server.py)
 
+**Run the server**
+
+Make sure you have Uvicorn installed :
+
+    pip install uvicorn
+
+Start the FastAPI server with :
+
+    uvicorn <file_name>:app --reload
+
 2. Sending Concurrent Requests
 
 A client script that uses ThreadPoolExecutor to fire multiple prompts concurrently.
@@ -132,6 +142,11 @@ A client script that uses ThreadPoolExecutor to fire multiple prompts concurrent
 Client ( load_test.py )
 
 -- [load_test](https://github.com/Sudeep5663/llama.cpp/blob/main/load_test.py)
+
+Run :
+
+    python3 load_test.py
+
 
 **Observations :**
 
