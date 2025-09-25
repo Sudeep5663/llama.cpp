@@ -45,7 +45,7 @@ Run LoRA fine-tuning with mlx_lm.lora
   	--optimizer adamw \
   	--batch-size 8 \
   	--iters 600 \
-    --learning-rate 5e-05 \
+    --learning-rate 2e-4 \
   	--val-batches -1 \
   	--steps-per-report 10 \
     --steps-per-eval 100 \
