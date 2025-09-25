@@ -42,3 +42,9 @@ How to choose:
 Excludes prompt tokens from loss calculation.
 
 Prevents model from wasting capacity reproducing the user query.
+
+Reference :
+
+[Mastering Hyperparameters](https://medium.com/%40sanjay_dutta/mastering-hyperparameters-learning-rate-batch-size-and-more-e3b4df6624dc),
+[Introduction to Fine-tuning Large Language Models](https://www.stephendiehl.com/posts/training_llms/?utm_source=chatgpt.com),
+[Finding good batch size and learning rate for fine tuning](https://discuss.huggingface.co/t/finding-good-batch-size-and-learning-rate-for-fine-tuning/14070?utm_source=chatgpt.com)
